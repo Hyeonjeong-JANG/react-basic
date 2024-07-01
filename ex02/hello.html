@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="box1"></div>
+    <div id="box2"></div>
+
+    <button onclick="fun1()">box1 변경</button>
+    <button onclick="fun2()">box2 변경</button>
+
+    <script>
+        function fun1(){
+            let box1 = document.querySelector("#box1");
+            box1.innerHTML = "바뀌었어요";
+        }
+
+        function fun2(){
+            let box2 = document.querySelector("#box2");
+            box2.innerHTML = "바뀌었어요";
+        }
+    </script>
+</body>
+</html>
